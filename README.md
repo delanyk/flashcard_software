@@ -20,12 +20,32 @@ additional libraries used JSON and random
 
 ## Deployment
 
+### Beginning interface
+
+![sample1](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample1.png)
+
+![sample2](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample2.png)
+
+### Practice
+
+![sample3](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample3.png)
+
+### Game Play
+
+![sample4](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample4.png)
+
+### Adding Cards
+
+![sample5](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample5.png)
+
+### Viewing Cards
+
+![sample6](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample6.png)
 
 
 ## Built With
 
-[tkinter](https://wiki.python.org/moin/TkInter)
-
+*[tkinter](https://wiki.python.org/moin/TkInter) Python's GUI (Graphical User Interface) package
 
 
 ## Versioning
