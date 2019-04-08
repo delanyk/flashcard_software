@@ -1,5 +1,4 @@
 # Quiz Flashcard Program
-Quiz Flashcard Program
 
 This software is designed for the use of flashcard games. It has four different fuctions. Practice games without time, where you can practice your questions without pressure. It has a game setting where you play against a clock and attempt to get a high score. You can add cards, and you can also view and delete cards within your deck. Decks should be saved as they do not automatically store. This program was made entirely in Python.
 
