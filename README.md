@@ -48,12 +48,21 @@ The quiz portion of this game is to enter the solution as fast as you can. Each 
 
 ![sample5](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample5.png)
 
-Cards are added using this interface. Each card is added individually, unless loaded from a JSON file. The card consists of one 'question key' and an 'answer value'. The fields may be cleared with the clear button, and saved with the save button. The 'Enter' key may also be used to submit cards. All fields must be filled before a card can be saved. 
+Cards are added using this interface. Each card is added individually, unless loaded from a JSON file. The card consists of one 'question key' and an 'answer value'. The fields may be cleared with the clear button, and saved with the save button. The 'Enter' key may also be used to submit cards. All fields must be filled before a card can be saved. The deck is not saved automatically. The deck must be saved via the 'Save as' option, otherwise the deck will be deleted once the program is closed.
 
 ### Viewing Cards
 
 ![sample6](https://raw.githubusercontent.com/delanyk/flashcard_software/master/img/sample6.png)
 
+The cards are viewd from this interface. A scrollable field will be created if there are enough cards. The question and answer values will be desplayed next to one another. There is also the option to delete each card, but you will also be prompted to confirm your deletions.
+
+Additionally, all cards may be sorted in descending and ascending order. If "Question" or "Answer" are clicked, the cards will be sorted initially in ascending order with respect to which field was chosen. A second click on this field will sort them in descending order. 
+
+No cards can be viewed if there are no cards in the deck.
+
+## Addition Notes
+
+This program currently only handles json files, with only a base level embedding. In addition, large json files can be used, but the time to process the 'View Cards' interface may take significantly longer, as it is reconstructed every time it is viewed. 
 
 ## Built With
 
